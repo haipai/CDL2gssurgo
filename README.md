@@ -17,3 +17,7 @@ For CDL, the spatial resolution and extent is not consistent cross years. For ex
 Here, I just include one R script to download CDL date set, and one Matlab script to match soil mapkey to 2020 Iowa CDL. 
 
 # Scripts 
+
+Download_CDL.r: download state CDL 
+MatchCDLSoil.m: match mapkey to each CDL cell. 
+
