@@ -20,7 +20,7 @@ Here, I just include one R script to download CDL date set, and one Matlab scrip
 # Scripts 
 
 Download_CDL.r: download state CDL 
-extractSoil2CDL.m: match mapkey to each CDL cell. the result is a vector with the length of num of rows in CDL times num of cols in CDL. If the CDL is located outside of the extent of soil area, the value is set to -9. The size of the result is in the range of several hundred MB to several GB depending on the size of the state. 
+extractSoil2CDL.m: match mapkey to each CDL cell. the result is a vector with the length of num of rows in CDL times num of cols in CDL. If the CDL is located outside of the extent of soil area, the value is set to -9. The size of the result is in the range of several hundred MB to several GB depending on the size of the state. The projection of both CDL and gSSURGO needs to be the same projection system, if the projection system is different, re-project one of them to align the coordinates. Apparently, the projection is the same for current versions of CDL and gSSURGO raster files. 
 
 
 
