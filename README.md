@@ -14,7 +14,7 @@ For example, each CDL cell will have a pair of information about the cell's lati
 
 For CDL, the spatial resolution and extent is not consistent cross years. For example, the spatial resolution is 56 meter, while in other years, the resolution is 30 meter. If you want to summarize the crop rotation pattern at each CDL cell, it is best to resample 56 meter CDL to 30 meter CDL as other years. If you want to match soil information to each year's CDL, no such resampling procedure is needed. 
 
-Here, I just include one R script to download CDL date set, and one Matlab script to match soil mapkey to 2020 Iowa CDL. The downloaded state gSSURGO database is an ArcGIS geodatabase, to be used directly by MATLAB, the raster feature needs to be exported as a geo-tiff data file. 
+Here, I just include one R script to download CDL date set, and one Matlab script to match soil mapkey to 2020 Iowa CDL. The downloaded state gSSURGO database is an ArcGIS geodatabase, to be used directly by MATLAB, the raster feature needs to be exported as a geo-tiff data file. With matched mapkey, you can futher connect mapkey with a set of soil attributes for your analysis. 
 
 
 # Scripts 
